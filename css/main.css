@@ -1,5 +1,6 @@
 body {
 	font-size: small;
+  /*hello*/
 }
 .clearfix {
 	clear: both;
@@ -112,4 +113,5 @@ ul.footer-list li a:hover {
 .right {
 	float: right;
 	margin-right: 30px;
+  /*good-bye*/
 }
