@@ -1,0 +1,115 @@
+body {
+	font-size: small;
+}
+.clearfix {
+	clear: both;
+}
+.header {
+	width: 100%;
+	clear: both;
+	display: block;
+	float: left;
+}
+ul.signin-list {
+	list-style: none;
+	margin: 0;
+	padding: 15px 30px 0 0;
+	float: right;
+}
+ul.signin-list li {
+	display: inline-block;
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+ul.signin-list li a {
+	color: #222;
+	text-decoration: none;
+}
+ul.signin-list li a:hover {
+	text-decoration: underline;
+}
+ul.signin-list li a img {
+	vertical-align: middle;
+}
+.signin-button {
+	border: 1px solid #4285f4;
+	background-color: #4683ea;
+	color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-left: 10px;
+	border-radius: 2px;
+}
+.google-logo {
+	width: 272px;
+	margin: 159px auto 0;
+}
+form {
+	width: 584px;
+	margin: 34px auto 0;
+}
+.search {
+	width: 560px;
+	height: 32px;
+	padding: 0 12px;
+	margin: 0 auto 33px;
+	background-image: url('../img/microphone.png');
+	background-position: 555px 50%;
+	background-repeat: no-repeat;
+	background-size: 24px;
+	border: 1px solid #d9d9d9;
+}
+.search:focus {
+	border: 1px solid #4d90fe;
+	outline: none;
+}
+.form-buttons {
+	width: 280px;
+	margin: 0 auto;
+}
+.form-buttons button {
+	border: 1px solid #f2f2f2;
+	background-color: #f5f5f5;
+	color: #757575;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-left: 10px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+.form-buttons button:hover {
+	border: 1px solid #c6c6c6;
+	color: #222;
+}
+.footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+ul.footer-list {
+	list-style: none;
+	margin: 15px 0;
+	padding: 0;
+}
+ul.footer-list li {
+	display: inline-block;
+	padding: 0 0 0 30px;
+	margin: 0;
+}
+ul.footer-list li a {
+	color: #666;
+	text-decoration: none;
+}
+ul.footer-list li a:hover {
+	text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-right: 30px;
+}
